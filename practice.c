@@ -23,7 +23,7 @@ int main(){
       printf("Round %d: Tails\n",i+1);
     }
   }
-  printf("Heads: %d, Tails\n",count,3-count);
+  printf("Heads: %d, Tails: %d\n",count,3-count);
   
   return 0;
 }
