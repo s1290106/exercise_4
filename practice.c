@@ -3,6 +3,12 @@
 
 int main(){
   int count = 0, num;
+  char str[10];
+
+  printf("Who are you?\n> ");
+  scanf("%s",str);
+  printf("Hello, %s!\n",str);
+  
   printf("Tossing a coin...\n");
 
   srand((unsigned int)time(NULL));
@@ -17,5 +23,7 @@ int main(){
       printf("Round %d: Tails\n",i+1);
     }
   }
-  printf("Heads: %d, Tails: %d\n",count,3-count);
+  printf("Heads: %d, Tails\n",count,3-count);
+  
+  return 0;
 }
